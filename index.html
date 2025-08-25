@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>View in AR</title>
+</head>
+<body style="text-align:center; padding:50px; font-family:Arial;">
+  <h2>Tap below to view the 3D Model in AR</h2>
+
+  <!-- For iPhone / iPad (USDZ) -->
+  <a rel="ar" href="model.usdz">
+    <img src="https://developer.apple.com/augmented-reality/quick-look/images/arkit.png" 
+         alt="View in AR on iOS" width="200">
+  </a>
+
+  <br><br>
+
+  <!-- For Android (GLB) -->
+  <a href="intent://arvr.google.com/scene-viewer/1.0?file=https://chandutank.github.io/ar-model/model.glb#Intent;scheme=https;package=com.google.android.googlequicksearchbox;end;">
+    <button style="padding:10px 20px; font-size:16px; border-radius:10px;">View in AR (Android)</button>
+  </a>
+</body>
+</html>
